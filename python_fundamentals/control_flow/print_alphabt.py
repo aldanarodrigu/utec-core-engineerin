@@ -1,3 +1,4 @@
 #!/usr/bin/env python3
-letters = "".join(chr(c) for c in range(97, 123) if chr(c) not in "eq")
-print("{}".format(letters))
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print("{}".format(chr(i)), end="")
