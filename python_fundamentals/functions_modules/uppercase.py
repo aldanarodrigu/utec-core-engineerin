@@ -2,9 +2,8 @@
 
 
 def uppercase(str):
-    texto = "{}".format(str)
     resultado = ""
-    for caracter in texto:
+    for caracter in str:
         if 97 <= ord(caracter) <= 122:
             resultado += chr(ord(caracter) - 32)
         else:
