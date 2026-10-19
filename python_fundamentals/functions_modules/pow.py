@@ -3,6 +3,8 @@
 
 def pow(a, b):
     resultado = 1
-    for i in range(b):
+    for i in range(abs(b)):
         resultado = resultado * a
+    if b < 0:
+        return 1 / resultado
     return resultado
