@@ -18,3 +18,4 @@ class Square:
     def area(self):
         """Return the current square area."""
         return self.__size * self.__size
+        
